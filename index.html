@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+       <!-- <div class="toast-container" data-position="top-center">
+         <div class="toast">
+                <div class="message-container">
+                    <img src="./icons/info.svg" height="25px">
+                    <p class="message">This is the information toast</p>
+               </div>
+              <div class="close-btn-container"><img src="./icons/close.svg" height="25px"/></div>
+         </div>
+     </div> -->
+    
+      <div class="cotrollers">
+            <div>
+                <form class="position-selectors-container">
+                <div>
+                    <label for="top-left">Top Left</label>
+                    <input type="radio" name="toast-position" id="top-left" value="top-left">
+                </div>
+                <div>
+                    <label for="top-center">Top Center</label>
+                    <input type="radio" name="toast-position" id="top-center" value="top-center">
+                </div>
+                <div>
+                    <label for="top-right">Top Right</label>
+                    <input type="radio" name="toast-position" id="top-right" value="top-right" checked>
+                </div>
+                <div>
+                    <label for="bottom-right">Bottom Right</label>
+                    <input type="radio" name="toast-position" id="bottom-right" value="bottom-right">
+                </div>
+                <div>
+                    <label for="Bottom-center">Bottom Center</label>
+                    <input type="radio" name="toast-position" id="bottom-center" value="bottom-center">
+                </div>
+                <div>
+                    <label for="bottom-left">Bottom Left</label>
+                    <input type="radio" name="toast-position" id="bottom-left" value="bottom-left">
+                </div>
+                </form>
+            </div>
+            <div class="toast-btn-container">
+                <button class="toast-btn" data-type="info">Info</button>
+                <button class="toast-btn" data-type="success">Success</button>
+                <button class="toast-btn" data-type="warning">Warning</button>
+                <button class="toast-btn" data-type="error">Error</button>
+            </div>
+            <div class="toast-info">
+                <img src="./icons/info.svg">
+                <p>Click on toast to close the toast</p>
+            </div>
+      </div>
+</body>
+<script src="./script.js" type="module"></script>
+</html>
